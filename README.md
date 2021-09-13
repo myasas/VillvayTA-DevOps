@@ -3,7 +3,7 @@
 
 Introduction
 -------------------------------
-This set up aims to build and deploy Villvay's TechChallengeApp to AWS Cloud infrastructure while adhering to following guidelines. 
+This set up aims to build and deploy Villvay's TechAssesment to AWS Cloud infrastructure while adhering to following guidelines. 
 
 **Immediate**
 - [x] Used proper Git workflow: [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
@@ -27,4 +27,18 @@ This set up aims to build and deploy Villvay's TechChallengeApp to AWS Cloud inf
 * **Architecture Diagram.** 
 ![Architecture Diagram](https://drive.google.com/uc?export=view&id=1RulPSHczD6SUCHZfyoQzVddkBAWoqCJW)
 
+## Directory Structure
+| Directory                | Purpose/Description                                                                                                                                              |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [ansible](./ansible)     | Contains Ansible scripts required to configure the servers to run TechAssesment with my configuration                                                                   |
+| [terraform](./terraform) | Contains Terraform modules and scripts needed to spin up infrastructure needed to implement infrastructure on which TechAssesments
+| [docker-compose](./docker-compose) | Contains Docker compose scripts needed to spin up infrastructure needed to implement infrastructure on which TechAssesment
 
+
+
+## Infrastructure Creation and Configuration
+
+1. Simple command to see functionality of makefile
+```shell
+make
+```
